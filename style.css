@@ -1,0 +1,997 @@
+/*  common  ccc*/
+tr, td, body {	font-family:'Apple SD Gothic Neo',Malgun Gothic,"굴림";font-size: 9pt;	color: #444444;	line-height: 19px;}
+
+a:link {  color: #333333; text-decoration: none}
+a:visited {  color: #333333; text-decoration: none}
+a:hover {  color: #333333; text-decoration: underline}
+
+a.bo:link {  color: #3774B1; font-weight: bold; text-decoration: none}
+a.bo:visited {  color: #3774B1; font-weight: bold; text-decoration: none}
+a.bo:hover {  color: #3774B1; font-weight: bold; text-decoration: underline}
+
+.bk1 {color: #000000;}
+.gw {color: #919191;}
+.gw2 {color: #606060;}
+
+.step { font-size: 9px; color: #848484; font-family: "Verdana"; }
+
+.bar1 {color: #E91762;  font-weight: bold}
+/*  title - */
+  /*  book.asp */
+.t1 {font-size: 12pt;font-weight: bold;	color: #000000;}
+.t2 {font-weight: bold;	color: #000000;}
+.t3 {font-size: 11pt;font-weight: bold;	color: #64B42F;}
+.t4 {font-size: 11pt;font-weight: bold;	color: #000000;}
+.t5 {font-size: 11pt;font-weight: bold;	color: #505050;}
+.t6 {font-size: 10pt;font-weight: bold;	color: #000000;} 
+.event {font-weight: bold;color: #3084D9;}
+.mt1 {font-size: 14px;	font-weight: bold; color: #38638D;}
+.mt2 {font-size: 14px;	font-weight: bold; color: #000000;}
+.jm {font-family:'Apple SD Gothic Neo',Malgun Gothic,Malgun Gothic,"굴림";font-size: 9pt;color: #FFFFFF;	background-color: #A6988B;}
+
+A.be:link { color: #D1607F; font-weight: bold; text-decoration:none}
+A.be:visited { color: #D1607F;  font-weight: bold; text-decoration:none}
+A.be:hover  { color: #D1607F; font-weight: bold; text-decoration:underline}
+ 
+A.md:link { color: #7A62B4; font-weight: bold; text-decoration:none}
+A.md:visited { color: #7A62B4;  font-weight: bold; text-decoration:none}
+A.md:hover  { color: #7A62B4; font-weight: bold; text-decoration:underline}
+ 
+/* link  it=item  gl=gray+line  b=bold */
+A.ml:link {  color: #505050; text-decoration: none}
+A.ml:visited {  color: #505050; text-decoration: none}
+A.ml:hover {  color: #386DA1; text-decoration: underline}
+
+A.mu:link {  color: #505050; text-decoration: none}
+A.mu:visited {  color: #505050; text-decoration: none}
+A.mu:hover {  color: #999999; text-decoration:  none}
+
+A.gl:link {	color: #505050;	text-decoration:none;background-image: url(//image.aladin.co.kr/img/common/un_dot.gif);}
+A.gl:visited { color: #505050;  text-decoration:none; background-image: url(//image.aladin.co.kr/img/common/un_dot.gif);}
+A.gl:hover  { color: #386DA1;text-decoration: underline}
+
+A.gl2:link { color: #818181; text-decoration:none}
+A.gl2:visited { color: #818181;  text-decoration:none }
+A.gl2:hover  { color: #818181; text-decoration: underline}
+
+A.gl3:link { color: #505050; text-decoration:none}
+A.gl3:visited { color: #505050; text-decoration:none}
+A.gl3:hover { color: #505050; text-decoration:none}
+
+A.gl4:link { color: #505050; text-decoration:none; border-bottom: 1px dotted #C1DDF5}
+A.gl4:visited { color: #505050;  text-decoration:none; border-bottom: 1px dotted #C1DDF5}
+A.gl4:hover  { color: #386DA1; border-bottom: 1px solid #386DA1}
+
+A.gl5:link { color: #949494; text-decoration:none;}
+A.gl5:visited { color: #949494;  text-decoration:none;}
+A.gl5:hover  { color: #949494; text-decoration:none;}
+
+A.gl6:link { color: #505050; text-decoration:underline;}
+A.gl6:visited { color: #505050;  text-decoration:underline;}
+A.gl6:hover  { color: #505050; text-decoration:underline;}
+
+A.gl7:link {	color: #606060;	text-decoration:none;background-image: url(//image.aladin.co.kr/img/common/un_dot.gif); font-size:11px;}
+A.gl7:visited { color: #606060;  text-decoration:none; background-image: url(//image.aladin.co.kr/img/common/un_dot.gif); font-size:11px;}
+A.gl7:hover  { color: #386DA1;text-decoration: underline; font-size:11px;}
+
+A.bl:link { color: #505050; font-weight: bold; text-decoration:none}
+A.bl:visited { color: #505050;  font-weight: bold; text-decoration:none}
+A.bl:hover  { color: #386DA1; font-weight: bold; text-decoration:underline}
+
+A.bt1:link { color: #000000; text-decoration:underline}
+A.bt1:visited { color: #000000; text-decoration:underline}
+A.bt1:hover  { color: #000000; text-decoration:underline}
+
+A.bt2:link { font-size: 13px;font-weight: bold; color: #000000; text-decoration:none}
+A.bt2:visited { font-size: 13px;font-weight: bold; color: #000000; text-decoration:none}
+A.bt2:hover  { font-size: 13px;font-weight: bold; color: #000000; text-decoration:none}
+
+A.bt3:link { font-size: 14px;	font-weight: bold; color: #38638D; text-decoration:none}
+A.bt3:visited { font-size: 14px;	font-weight: bold; color: #38638D; text-decoration:none}
+A.bt3:hover  { font-size: 14px;	font-weight: bold; color: #38638D; text-decoration:none}
+
+A.bt4:link { font-size: 14px;	font-weight: bold; color: #3774B1; text-decoration:none}
+A.bt4:visited { font-size: 14px;	font-weight: bold; color: #3774B1; text-decoration:none}
+A.bt4:hover  { font-size: 14px;	font-weight: bold; color: #3774B1; text-decoration:underline}
+
+A.bm:link { color: #7A62B4; font-weight: bold; text-decoration:none}
+A.bm:visited { color: #7A62B4;  font-weight: bold; text-decoration:none}
+A.bm:hover  { color: #7A62B4; font-weight: bold; text-decoration:underline}
+
+A.white:link { color: #FFFFFF;  text-decoration:none;border-bottom: 1px dotted #FFFFFF}
+A.white:visited { color: #FFFFFF;  text-decoration:none;border-bottom: 1px dotted #FFFFFF}
+A.white:hover  { color: #FFFFFF;  border-bottom: 1px solid #FFFFFF}
+
+A.gift:link {color:#4B7C34; font-size:9pt; text-decoration:none;  font-weight: bold;  line-height:120%}
+A.gift:visited {color:#4B7C34; font-size:9pt; text-decoration:none;  font-weight: bold;  line-height:120%}
+A.gift:hover  {color:#4B7C34; font-size:9pt; text-decoration:underline;  font-weight: bold;  line-height:120%}
+
+A.cl:link { color: #505050; text-decoration:none}
+A.cl:visited { color: #505050;  text-decoration:none }
+A.cl:hover  { color: #505050; text-decoration: none}
+
+.box2
+{    
+    color: #E0E0DF;
+    BORDER-RIGHT: #ECECEB 1px solid;
+    BORDER-TOP: #ECECEB  1px solid;
+    BORDER-LEFT: #ECECEB 1px solid;
+    BORDER-BOTTOM: #ECECEB 1px solid;
+}
+ 
+.pri {color: #E61663;font-size: 11pt; font-weight: bold;}
+.pra {color: #136CBB;font-size: 11pt; font-weight: bold;}
+
+.luxury
+{    
+    color: #dddddd;
+    BORDER-RIGHT: #dddddd 1px solid;
+    BORDER-TOP: #dddddd 1px solid;
+    BORDER-LEFT: #dddddd 1px solid;
+    BORDER-BOTTOM: #dddddd 1px solid;
+}
+
+
+/* blue */
+.be1 {color: #0A5EB3;}
+.be2 {color: #447DA9;}
+
+/* ex */
+.from {font-style: italic;}
+.my {font-size: 8pt; color: #70AE18; line-height: 12px;}
+.my2 {font-size: 8pt; color: #919191;}
+.on {color: #E35799;}
+.nav {color: #949494;}
+.form1 {font-family:'Apple SD Gothic Neo',Malgun Gothic,Malgun Gothic,"굴림";font-size: 9pt;color: #505050;border: 0px none;	padding: 2px 0px 0px;}
+.form2 {
+	font-family:'Apple SD Gothic Neo',Malgun Gothic,Malgun Gothic,"굴림";
+	font-size: 9pt;
+	color: #505050;
+	border-top: 1px solid #A4A4A4;
+	border-right: 1px solid #CECECE;
+	border-bottom: 1px solid #CECECE;
+	border-left: 1px solid #A4A4A4;}
+.form3 {
+    border-color:#A4A4A4 rgb(206, 206, 206) rgb(206, 206, 206) rgb(164, 164, 164);
+    border-style:solid;
+    border-width:1px;
+    font-family:'Apple SD Gothic Neo',Malgun Gothic,"돋움";
+    font-size:9pt;
+    line-height:140%;
+    padding:5px;}
+.meet {color: #538BBB;}
+
+.menutd a:hover {background-color:#BFBFBF; color:#ffffff; text-decoration:none}
+.menutd2 a:hover {background-color:#EDF6FE; color:#386DA1; text-decoration:none}
+.menutd3 a:hover {background-color:#F7F7F7; color:#000000; text-decoration:none}
+
+
+​A.glist:link { color: #919191; text-decoration:none;/*background-image: url(../Downloads/img_200408/un_dot.gif);*/}
+A.glist:visited { color: #919191;  text-decoration:none; /*background-image: url(../Downloads/img_200408/un_dot.gif);*/}
+A.glist:hover  { color: #919191;text-decoration: underline}
+
+
+/* price */
+.pb1 {font-weight: bold;color: #B54A72;}
+.p1 {color: #B54A72;}
+.pb2 {font-weight: bold;color: #4AA37C;}
+.p2 {color: #4AA37C;}
+
+/* best */
+.co {font-size: 8pt; color: #919191;}
+
+/*  talktalk */
+ .talk1 {font-size: 9pt;	color: #A0A0A0;}
+ .talk2 {font-size: 9pt;	color: #F79100;}
+ .img {border-style:solid;border-width:1px ;border-color:858585}
+  
+A.tgl:link { color: #303030; text-decoration:none;border-bottom: 1px dotted #C1DDF5 }
+A.tgl:visited { color: #303030;  text-decoration:none;border-bottom: 1px dotted #C1DDF5 }
+A.tgl:hover  {color: #386DA1; border-bottom: 1px solid #258AB0}
+
+A.tgl2:link { color: #303030; text-decoration:none; background-image: url(//image.aladin.co.kr/img/common/un_dot.gif); }
+A.tgl2:visited { color: #303030;  text-decoration:none;background-image: url(//image.aladin.co.kr/img/common/un_dot.gif); }
+A.tgl2:hover  {color: #386DA1; text-decoration:underline;}
+
+A.tmore:link { color: #9B9B9B; text-decoration:underline; font-weight: bold;}
+A.tmore:visited { color: #9B9B9B;  text-decoration:underline; font-weight: bold;}
+A.tmore:hover  { color: #9B9B9B; text-decoration:underline ;font-weight: bold;}
+
+A.tnic:link { color: #505050; text-decoration:none; }
+A.tnic:visited { color: #505050;  text-decoration:none; }
+A.tnic:hover  { color: #505050; text-decoration:underline }
+
+A.t52:link { color: #5e5e5e; text-decoration:none; }
+A.t52:visited { color: #5e5e5e;  text-decoration:none; }
+A.t52:hover  { color: #5e5e5e; text-decoration:underline }
+
+A.tgr:link { color: #505050; text-decoration:none; }
+A.tgr:visited { color: #505050;  text-decoration:none; }
+A.tgr:hover  { color: #386DA1; text-decoration:underline }
+
+A.tl:link { color: #000000; font-weight: bold; text-decoration:none}
+A.tl:visited { color: #000000;  font-weight: bold; text-decoration:none}
+A.tl:hover  { color: #386DA1; font-weight: bold; text-decoration:underline}
+
+A.tlb:link { color: #000000;  text-decoration:none}
+A.tlb:visited { color: #000000;   text-decoration:none}
+A.tlb:hover  { color: #386DA1;  text-decoration:underline}
+
+.f6
+{
+    BORDER-RIGHT: #e8e8e8 1px solid;
+    BORDER-TOP: #e8e8e8 1px solid;
+    FONT-SIZE: 9pt;
+    BORDER-LEFT: #e8e8e8 1px solid;
+    color: #444444;
+    LINE-HEIGHT: 170%;
+    BORDER-BOTTOM: #e8e8e8 1px solid;
+    FONT-FAMILY:'Apple SD Gothic Neo',Malgun Gothic, "돋움"
+}
+
+.f2
+{
+    BORDER-RIGHT: #CCCCCC 1px solid;
+    BORDER-TOP: #CCCCCC 1px solid;
+    FONT-SIZE: 9pt;
+    BORDER-LEFT: #CCCCCC 1px solid;
+    color: #444444;
+    LINE-HEIGHT: 170%;
+    BORDER-BOTTOM: #CCCCCC 1px solid;
+    FONT-FAMILY:'Apple SD Gothic Neo',Malgun Gothic, "돋움"
+}
+
+.box1
+{    
+    color: #505050;
+    BORDER-RIGHT: #DDDDDD 1px solid;
+    BORDER-TOP: #DDDDDD 1px solid;
+    BORDER-LEFT: #DDDDDD 1px solid;
+    BORDER-BOTTOM: #DDDDDD 1px solid;
+
+    margin-top:3px;
+	margin-bottom:3px;
+	margin-left:3px;
+	margin-right:3px;
+	margin:3px;
+}
+.bu {
+	FONT-FAMILY:'Apple SD Gothic Neo',Malgun Gothic, "돋움", "굴림";
+	font-size: 9pt;
+	color: #000000;
+	background-color: #D3D0C9;
+     border: 1px solid #ffffff;
+
+
+}
+
+.box3
+{    
+    /* color: #DDDDDD;*/
+	color:Red;
+    BORDER-RIGHT: #DDDDDD 1px solid;
+    BORDER-TOP: #DDDDDD 1px solid;
+    BORDER-LEFT: #DDDDDD 1px solid;
+    BORDER-BOTTOM: #DDDDDD 1px solid;
+}
+
+.boxt1
+{ PADDING-TOP: 10px; PADDING-RIGHT: 15px;PADDING-LEFT:20px; PADDING-BOTTOM: 15px;font-family: 'Apple SD Gothic Neo',Malgun Gothic,"돋움";font-size: 9pt;	color: #505050;	line-height: 14pt;}
+
+.numover {background-Color:#F6F6F6;}
+.numout {background-Color:#FFFFFF;}
+
+/*browse front 은경*/
+.no {	font-family:'Apple SD Gothic Neo',Malgun Gothic,Malgun Gothic,"굴림";font-size: 9pt;color: #5102AD;}
+.lc {font-weight: bold; color: #3084D9;}
+.ev{color: #1962A7;}
+.re{color: #000000;}
+.r1{color: #CC0202;}
+.fr {color:017992; font-weight: bold;font-size: 12pt;}
+.frt{font-family:'Apple SD Gothic Neo',Malgun Gothic,Malgun Gothic,"굴림";color: #212121; font-size: 11pt;font-weight: bold;}
+A.br:link {  color: #505050; text-decoration: none}
+A.br:visited {  color: #505050; text-decoration: none}
+A.br:hover {  color: #151515; text-decoration: underline}
+
+A.bb:link {  color: #2054B9; text-decoration: none}
+A.bb:visited {  color: #2054B9; text-decoration: none}
+A.bb:hover {  color: #2054B9; text-decoration: underline}
+
+A.pl:link { color: #505050;  text-decoration:none}
+A.pl:visited { color: #505050;  text-decoration:none}
+A.pl:hover  { color: #505050;  text-decoration:underline}
+
+A.pp:link { color: #505050;  text-decoration:none;font-size: 9pt;}
+A.pp:visited { color: #505050;  text-decoration:none;font-size: 9pt;}
+A.pp:hover  { color: #505050;  text-decoration:underline;font-size: 9pt;}
+.cu{ color: #000000;font-weight: bold;}
+.cz{ color: #639532;font-weight: bold;}
+
+.bty {font-weight: bold;color: #FF6C0C;}
+.bsp {color: #0000FF;}
+.bmrb  {color: #333333;}
+.tlt {color: #000000;font-size: 11pt;font-weight: bold;}
+.tlo {color: #CD0303;font-size: 8pt;}
+.tlo {color: #383838;font-size: 8pt;}
+
+.bubox
+{    
+    color: #505050;
+    BORDER-RIGHT: #D8D8D8 1px solid;
+    BORDER-TOP: #D8D8D8 1px solid;
+    BORDER-LEFT: #D8D8D8 1px solid;
+    BORDER-BOTTOM: #D8D8D8 1px solid;
+}
+
+A.like:link { color: #767676; text-decoration:none}
+A.like:visited { color: #767676;  text-decoration:none }
+A.like:hover  { color: #386DA1; text-decoration: underline}
+
+A.popul:link { color: #767676; text-decoration:none}
+A.popul:visited { color: #767676;  text-decoration:none }
+A.popul:hover  { color: #767676; text-decoration: underline}
+
+.talkform
+{    
+    color: #303030;font-family:'Apple SD Gothic Neo',Malgun Gothic,Malgun Gothic,"굴림";
+    BORDER-RIGHT: #C2C2C2 1px solid;
+    BORDER-TOP: #C2C2C2 1px solid;
+    BORDER-LEFT: #C2C2C2 1px solid;
+    BORDER-BOTTOM: #C2C2C2 1px solid;
+}
+ 
+A.tap:link {  color: #555555; text-decoration: none;FONT-FAMILY:'Apple SD Gothic Neo',Malgun Gothic, "굴림";}
+A.tap:visited {  color: #555555; text-decoration: none;FONT-FAMILY:'Apple SD Gothic Neo',Malgun Gothic, "굴림";}
+A.tap:hover {  color: #386DA1; text-decoration: underline;FONT-FAMILY:'Apple SD Gothic Neo',Malgun Gothic, "굴림";}
+ 
+A.brief:link {  color: #8E8E8E; text-decoration: none;}
+A.brief:visited {  color: #8E8E8E; text-decoration: none;}
+A.brief:hover {  color: #386DA1; text-decoration: underline;}
+ 
+.brief2{   font-family: 'Apple SD Gothic Neo',Malgun Gothic,"돋움";font-size: 9pt; color: #8E8E8E; line-height: 19px;}
+.tmore2{ color: #9B9B9B; text-decoration:underline; }
+.giftform
+{    
+    color: #606060;font-family:'Apple SD Gothic Neo',Malgun Gothic,Malgun Gothic,"굴림";
+    BORDER-RIGHT: #CECECE 1px solid;
+    BORDER-TOP: #A4A4A4 1px solid;
+    BORDER-LEFT: #A4A4A4 1px solid;
+    BORDER-BOTTOM: #CECECE 1px solid;
+}
+
+A.cup1:link { color: #000000; font-weight: bold;text-decoration:underline}
+A.cup1:visited { color: #000000; font-weight: bold;text-decoration:underline}
+A.cup1:hover  { color: #386DA1; font-weight: bold;text-decoration:underline}
+ 
+.cup {font-size: 11pt; color: #CC0000; }
+
+
+A.normalA:link, A.normalA:visited, A.normalA:hover{
+	color:#444444;
+	text-decoration:none;
+}
+
+
+A.normalB:link, A.normalB:visited{
+	color:#444444;
+	text-decoration:none;
+}
+A.normalB:hover{
+	color:#444444;
+	text-decoration:underline;
+}
+
+
+
+.bt{ color: #001F88;}
+.cu{ color: #000000;font-weight: bold;}
+.cz{ color: #639532;font-weight: bold;}
+.bz{ color: #FE8C4D;font-weight: bold;}
+.bznew{ color:#FE8C4D;font-weight:bold;}
+.bz2 { font-size: 11pt; color: #FE8C4D;font-weight: bold;}
+
+.bubox
+{    
+    color: #606060;
+    BORDER-RIGHT: #D8D8D8 1px solid;
+    BORDER-TOP: #D8D8D8 1px solid;
+    BORDER-LEFT: #D8D8D8 1px solid;
+    BORDER-BOTTOM: #D8D8D8 1px solid;
+}
+.bubox1
+{    
+    color: #505050;
+    BORDER-RIGHT: #E7E7E7 1px solid;
+    BORDER-TOP: #E7E7E7 1px solid;
+    BORDER-LEFT: #E7E7E7 1px solid;
+    BORDER-BOTTOM: #E7E7E7 1px solid;
+}
+
+
+.linkP{
+	cursor:pointer;
+	/* for IE 5.0 */
+	cursor:hand;
+}
+
+.tx1 {color:#F26600;}
+
+.coupon_p {font-size:9pt; color: #00FFFF; text-decoration: none;} 
+A.cup3:link { color: #ffffff; font-weight: bold;text-decoration:underline ;}
+A.cup3:visited { color: #ffffff; font-weight: bold;text-decoration:underline ;}
+A.cup3:hover  { color: #FFEA00; font-weight: bold;text-decoration:underline ;}
+
+
+div.helpMsg{/*
+	border:0px solid red; 
+	position:absolute; 
+	display:inline; 
+	visibility:hidden; 
+	background:url('//image.aladin.co.kr/img/trans.gif');
+	margin:-1px 0px 0px -28px; 
+	padding:16px 0px 0px 15px;*/
+}
+
+div.helpThxMsg{/*
+	border: 0px solid red; 
+	position:absolute; 
+	display:inline; 
+	visibility:hidden; 
+	background:url('//image.aladin.co.kr/img/trans.gif');
+	margin: -1px 0px 0px -300px; 
+	padding:16px 20px 0px 0px;*/
+}
+
+a.po:link  {  color: #606060; text-decoration: none}
+a.po:link{  color:606060; text-decoration: none}
+a.po:link {  color: #606060; text-decoration: underline}
+
+div.shadowBox{
+	margin:14px 0px 0px -16px;
+	position:absolute; 
+	visibility:hidden; 
+    background-color:#7a7a7a; 
+    width:302px; 
+    border:0px solid blue; 
+    text-align:left; 
+    vertical-align:top; 
+    filter:alpha(opacity=100);
+	cursor:default; 
+	display:inline;
+}
+
+
+div.OKCashBagUsed{
+	margin:0px 0px 0px 70px;
+	position:absolute; 
+	visibility:hidden; 
+    background-color:#7a7a7a; 
+    width:302px; 
+    border:0px solid blue; 
+    text-align:left; 
+    vertical-align:top; 
+    filter:alpha(opacity=100);
+	cursor:default; 
+	display:inline;
+}
+
+div.shadowBoxThx{
+	margin: 14px 0px 0px -306px;
+	position:absolute; 
+	visibility:hidden; 
+    background-color:#7a7a7a; 
+    width:302px; 
+    border:0px solid blue; 
+    text-align:left; 
+    vertical-align:top; 
+    filter:alpha(opacity=100);
+	cursor:default;
+	display:inline; 
+}
+
+div.MyAccountTimeLinelayer{
+	margin: 20px 0px 0px -306px;
+	position:absolute; 
+	visibility:hidden; 
+    background-color:#7a7a7a; 
+    border:0px solid blue; 
+    text-align:left; 
+    vertical-align:top; 
+    filter:alpha(opacity=100);
+	cursor:default;
+	display:inline; 
+}
+
+div.balloon{
+	margin: -25px 0px 0px -26px;
+	position:absolute; 
+	visibility:hidden; 
+    background-color:none transparent scroll repeat 0% 0%;
+    width:100px; 
+    border:0px solid blue; 
+    text-align:left; 
+    vertical-align:top; 
+    filter:alpha(opacity=100);
+	cursor:default;
+	display:inline; 
+}
+
+div.shadowBox *{
+    position: relative;
+}
+
+div.shadowBox .lowest{
+    height:2px;
+}
+
+ a.sw:link { font-size: 11px; color: #505050; text-decoration: none}
+ a.sw:visited {  font-size: 11px;color: #505050; text-decoration: none}
+ a.sw:hover {  font-size: 11px;color: #505050; text-decoration: underline}
+
+/* w3c - Align Right */
+.ar{
+
+	margin-left:auto; 
+	margin-right:0px;
+}
+
+/* Header Layer Menu - Anchor*/
+A.hdlmnu:link { color: #505050; text-decoration:none; padding:1px 0px 1px 0px; width:100%}
+A.hdlmnu:visited { color: #505050; text-decoration:none; padding:1px 0px 1px 0px; width:100%}
+A.hdlmnu:hover { color: #505050; text-decoration:none; padding:1px 0px 1px 0px; width:100%}
+
+.gw3 {color: #777777;}
+
+div.boxzzang4 {
+	width:375; 
+	height:150;
+	/*overflow:scroll;*/
+	padding:2px; 
+
+	scrollbar-3dlight-color:#eeede7;
+	scrollbar-arrow-color:#ffffff;
+	scrollbar-base-color:#fbfbf8;
+	scrollbar-darkshadow-color:ffffff;
+	scrollbar-face-color:#dedede; 
+	scrollbar-highlight-color:#cccccc;
+	scrollbar-track-color: #f0f0f0;
+	scrollbar-shadow-color:#cccccc;
+} 
+
+
+a.key1:link		{font-size: 9pt; color: #505050; text-decoration: none;		font-family:'Apple SD Gothic Neo',"굴림"; letter-spacing:-1px;}
+a.key1:visited	{font-size: 9pt; color: #505050; text-decoration: none;		font-family:'Apple SD Gothic Neo',"굴림"; letter-spacing:-1px;}
+a.key1:hover	{font-size: 9pt; color: #505050; text-decoration: underline;font-family:'Apple SD Gothic Neo',"굴림"; letter-spacing:-1px;}
+
+.gray05, 
+a.gray05:link, 
+a.gray05:visited, 
+a.gray05:hover, 
+a.gray05:active {
+	color:#B8C7D7;
+}
+
+
+div.clear{ clear:both; }
+
+/******** item info관련 ******/
+div.itemInfo{
+	text-align:left;
+	/*clear:both;*/
+	margin-bottom:0px;
+	padding-bottom:10px;	
+}
+
+div.itemInfoImg{
+	width:88px; 
+	margin-left:33px;
+	margin-bottom:15px;
+	padding: 4px 3px 4px 3px;
+	border:1px solid #dddddd;
+	text-align:center;
+	float:left;
+	display:inline;
+
+}
+
+div.itemInfoContent{
+	margin-left: 162px;
+}
+
+.itemInfoContentUl  {
+	margin-left:-40px;
+border:1px solid red;
+}
+
+.itemInfoContentUl li{
+	list-style:none;
+	padding-bottom:1px;
+	/*line-height:170%;*/
+}
+
+* html .itemInfoContentUl li{
+	/* IE bug! */
+	/*clear:left;*/
+
+}
+
+.itemInfoContent dd{
+
+}
+
+.itemInfoContent dt{
+	margin-top:-13px;
+	margin-left: 0px;
+	padding-bottom: 3px;
+}
+.itemInfoContent dl{
+}
+
+/******** item info관련 ******/
+
+.f5
+{
+    BORDER-RIGHT: #D4D3C9 1px solid;
+    BORDER-TOP: #D4D3C9 1px solid;
+    FONT-SIZE: 9pt;
+    BORDER-LEFT: #D4D3C9 1px solid;
+    color: #5B5B5B;
+    BORDER-BOTTOM: #D4D3C9 1px solid;
+    FONT-FAMILY:'Apple SD Gothic Neo',Malgun Gothic, "굴림";
+	height:21px;
+    BACKGROUND-color: #FFFFFF
+}
+
+a.ex:link {  font-size: 9pt; color: #5B5B5B; text-decoration: underline;	font-family:""; letter-spacing:-1px;}
+a.ex:visited {  font-size: 9pt; color: #5B5B5B; text-decoration: underline;	font-family:""; letter-spacing:-1px;}
+a.ex:hover {  font-size: 9pt; color: #5B5B5B; text-decoration: underline;	font-family:""; letter-spacing:-1px;}
+
+.brand1 {font-size: 14pt;font-weight: bold;color: #DC567C;}
+.brand2 {font-size: 13pt;font-weight: bold;color: #DC567C;}
+
+.at3 {font-size: 11pt;font-weight: bold;color: #DC567C;}
+.lank1 {font-family:verdana; font-size:15px; font-style : italic; color:#F35B00; font-weight:bold}
+.lank2 {font-family:verdana; font-size:15px; font-style : italic; color:#919191; font-weight:bold}
+
+#card_layer{ margin-left:-300px;}
+
+#footerNSDiv{ text-align:center; }
+#footerNSDiv table { margin: 0 auto 0 auto; }
+#tabEvTable {  /*margin-left:17px;*/  }
+#tabEvTable td { margin-left:3px; }
+#eventTab1, #eventTab2, #eventTab3, #eventTab4, #eventTab5 { margin-left:3px;  }
+
+#bestBanDiv 
+{
+	 /*margin-left:17px; */
+
+	border: 0px solid red;
+}
+
+.field
+{
+    BORDER-RIGHT: #B3B4BC 1px solid;
+    BORDER-TOP: #B3B4BC 1px solid;
+    FONT-SIZE: 9pt;
+    BORDER-LEFT: #B3B4BC 1px solid;
+    color: #5B5B5B;
+    BORDER-BOTTOM: #B3B4BC 1px solid;
+    FONT-FAMILY:'Apple SD Gothic Neo',Malgun Gothic, "굴림";
+	height:21px;
+    BACKGROUND-color: #FFFFFF
+}
+
+A.ml05:link {  color: #444444; text-decoration: none}
+A.ml05:visited {  color:444444; text-decoration: none}
+A.ml05:hover {  color: #386DA1; text-decoration: underline}
+
+A.navi_bng:link {  color: #444444; text-decoration: none}
+A.navi_bng:visited {  color: #444444; text-decoration: none}
+A.navi_bng:hover {  background-color:#F1F1F1; color:#386DA1; text-decoration: none;width:202px;}
+
+#beautyBrowse	.main_left_browse a.navi_bng:hover,
+#giftBrowse		.main_left_browse a.navi_bng:hover {  background-color:#F1F1F1; color:#386DA1; text-decoration: none;width:110px;}
+
+#beautyBrowse	.main_left_browse {position:absolute; margin-left:70px; margin-top:-29px; display:none; width:138px}
+#giftBrowse		.main_left_browse {position:absolute; margin-left:110px; margin-top:-29px; display:none; width:128px}
+
+#beautyBrowse	tr:hover,
+#giftBrowse		tr:hover{ background-color:#F1F1F1; color:#386DA1; width:110px;}
+
+
+#bodyDescription 
+{
+ padding-left: 12px;
+}
+
+#bodyDescription 
+{
+ padding-left: 12px;
+}
+
+#bodyDescription li
+{
+	margin-left: 30px;
+	padding: 0px;
+	list-style-type: disc;
+	list-style-image: none;
+	list-style-position: outside;
+}
+
+.permaLayer {
+	width:590px; 
+	position:absolute; 
+	background-color:ghostwhite; 
+	border:1px solid #dfdfdf; 
+	padding:3px; 
+	margin-top:3px;
+	z-index:40;
+	font-family:'Apple SD Gothic Neo',Malgun Gothic,Malgun Gothic,"굴림";
+	font-size: 12px;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color='#4f4f5f', Direction=135, Strength=3);
+	height:65px;	
+	_height:72px;
+}
+.permaLayerShadow {
+	background-color:#4f4f5f; 
+	position:absolute; 
+	z-index:30;
+	width:597px;
+	height:73px;
+	margin-top:5px; 
+	margin-left:3px;
+	filter: alpha(opacity=50);
+	opacity: 0.8;
+	_width:589px;
+	_height:70px;
+	_margin-top:7px;
+}
+
+.pTitleLayer {
+	width:550px; 
+	position:absolute; 
+	background-color:ghostwhite; 
+	border:1px solid #dfdfdf; 
+	padding:3px; 
+	margin-top:3px;
+	z-index:40;
+	font-family: 'Apple SD Gothic Neo',Malgun Gothic,"돋움";
+	font-size: 12px;	
+	filter:progid:DXImageTransform.Microsoft.Shadow(color='#4f4f5f', Direction=135, Strength=3);
+	height:27px;
+	_height:34px;	
+}
+.pTitleLayerShadow {
+	background-color:#4f4f5f; 
+	width:557px;
+	height:35px;
+	margin-top:5px; 
+	margin-left:3px; 
+	position:absolute; 
+	z-index:30;
+	filter: alpha(opacity=50);
+	opacity: 0.8;
+	_width:549px;
+	_height:32px;
+	_margin-top:7px;
+}	
+
+.ttbButtonSpace
+{
+	margin-top:5px;	
+	margin-bottom:3px;
+}
+
+.recommend11 { FONT-SIZE: 12px; color: #1047D1; font-weight:bold; }		
+
+.tltb { color: #000000; font-weight: bold;}
+
+/*구매자댓글 경숙*/
+
+.txt_bs {color: #74B9E2; font-weight: bold; text-decoration: none}
+.tt_gray {color: #616161; font-weight:bold;}
+.txt_rs {color:#CA0014; font-weight:bold;}
+.txt_g8 {font-size:8pt;  color: #8C8C8C;}
+.txt_g40 {color:#666666;}
+
+A.id_b:link { color: #303030; text-decoration:none;border-bottom: 1px dotted #C1DDF5; }
+A.id_b:visited { color: #303030;  text-decoration:none;border-bottom: 1px dotted #C1DDF5; }
+A.id_b:hover  {color: #386DA1; border-bottom: 1px solid #258AB0;}
+
+A.g8:link {font-size:8pt;  color: #666666; text-decoration: none;}
+A.g8:visited {font-size:8pt;  color: #666666; text-decoration: none;}
+A.g8:hover {font-size:8pt;  color: #666666; text-decoration: underline;}
+
+A.b8:link {font-size:8pt;  color: #3399CC; text-decoration: underline;}
+A.b8:visited {font-size:8pt;  color: #3399CC; text-decoration: underline;}
+A.b8:hover {font-size:8pt;  color: #2877B9; text-decoration: underline;}
+
+
+.pt1 {color: #444444; font-size:14px;}
+.pt2 {color: #444444; font-size:14px; border-bottom: 1px dotted #444444; font-weight:bold;}
+.pt3 {color: #B54A72; font-size:14px; font-weight:bold;}
+.pd1 {color: #666666; font-size:11px;}
+.pd2 {color: #0083C9; font-size:11px;}
+
+
+
+/* PageNav */
+.numbox_first {float:left;background-color:#f8f8f8;margin:2px;width:38px;text-align:center;line-height:14px;font-family:'Apple SD Gothic Neo',Malgun Gothic,dotum;font-size:12px;}
+.numbox_first a {display:block;width:38px;padding:5px 0px 3px 0px;font-family:'Apple SD Gothic Neo',Malgun Gothic,dotum;font-size:12px;}
+
+#short .numbox_pre {float:left;background-color:#f8f8f8;margin:2px;width:52px;text-align:center;	line-height: 14px;font-family:'Apple SD Gothic Neo',Malgun Gothic,dotum;font-size:12px;}
+#short .numbox_pre a {display:block;padding:5px 0 3px 0;_padding:5px 0 3px 0;width:52px;font-family:'Apple SD Gothic Neo',Malgun Gothic,dotum;font-size:12px;}
+#short .numbox {float:left;background-color:#f8f8f8;margin:2px;width:23px; text-align:center;	line-height: 14px;font-family:'Apple SD Gothic Neo',Malgun Gothic,dotum;font-size:12px;}
+#short .numbox a {display:block;padding:5px 0 3px 0;_padding:5px 0 3px 0;width:23px;font-family:'Apple SD Gothic Neo',Malgun Gothic,dotum;font-size:12px;}
+#short .numbox_next {float:left;background-color:#f8f8f8;margin:2px;width:52px; text-align:center;	line-height: 14px;font-family:'Apple SD Gothic Neo',Malgun Gothic,dotum;font-size:12px;}
+#short .numbox_next a {display:block;padding:5px 0 3px 0;_padding:5px 0 3px 0;width:52px;font-family:'Apple SD Gothic Neo',Malgun Gothic,dotum;font-size:12px;}
+
+#middle .numbox_pre {float:left;background-color:#f8f8f8;margin:2px;width:60px;text-align:center;	line-height: 14px;font-family:'Apple SD Gothic Neo',Malgun Gothic,dotum;font-size:12px;}
+#middle .numbox_pre a {display:block;padding:5px 0 3px 0;_padding:5px 0 3px 0;width:60px;font-family:'Apple SD Gothic Neo',Malgun Gothic,dotum;font-size:12px;}
+#middle .numbox {float:left;background-color:#f8f8f8;margin:2px;width:27px; text-align:center;	line-height: 14px;font-family:'Apple SD Gothic Neo',Malgun Gothic,dotum;font-size:12px;}
+#middle .numbox a {display:block;padding:5px 0 3px 0;_padding:5px 0 3px 0;width:27px;font-family:'Apple SD Gothic Neo',Malgun Gothic,dotum;font-size:12px;}
+#middle .numbox_next {float:left;background-color:#f8f8f8;margin:2px;width:60px; text-align:center;	line-height: 14px;font-family:'Apple SD Gothic Neo',Malgun Gothic,dotum;font-size:12px;}
+#middle .numbox_next a {display:block;padding:5px 0 3px 0;_padding:5px 0 3px 0;width:60px;font-family:'Apple SD Gothic Neo',Malgun Gothic,dotum;font-size:12px;}
+
+#long .numbox_pre {float:left;background-color:#f8f8f8;margin:2px;width:70px;text-align:center;	line-height: 14px;font-family:'Apple SD Gothic Neo',Malgun Gothic,dotum;font-size:12px;}
+#long .numbox_pre a {display:block;padding:5px 0 3px 0;_padding:5px 0 3px 0;width:70px;font-family:'Apple SD Gothic Neo',Malgun Gothic,dotum;font-size:12px;}
+#long .numbox {float:left;background-color:#f8f8f8;margin:2px;width:30px; text-align:center;	line-height: 14px;font-family:'Apple SD Gothic Neo',Malgun Gothic,dotum;font-size:12px;}
+#long .numbox a {display:block;padding:5px 0 3px 0;_padding:5px 0 3px 0;width:30px;font-family:'Apple SD Gothic Neo',Malgun Gothic,dotum;font-size:12px;}
+#long .numbox_next {float:left;background-color:#f8f8f8;margin:2px;width:70px; text-align:center;	line-height: 14px;font-family:'Apple SD Gothic Neo',Malgun Gothic,dotum;font-size:12px;}
+#long .numbox_next a {display:block;padding:5px 0 3px 0;_padding:5px 0 3px 0;width:70px;font-family:'Apple SD Gothic Neo',Malgun Gothic,dotum;font-size:12px;}
+
+.numbox_last {float:left;background-color:#f8f8f8;margin:2px;width:25px;text-align:center;	line-height: 14px;font-family:'Apple SD Gothic Neo',Malgun Gothic,dotum;font-size:12px;}
+.numbox_last a {display:block;padding:5px 0 3px 0;width:25px;font-family:'Apple SD Gothic Neo',Malgun Gothic,dotum;font-size:12px;}
+
+a.numoff:link {text-decoration:none;color:#333333;}
+a.numoff:hover {text-decoration:none;color:#FF6600;background-color:#f8f8f8;}
+a.numoff:visited {text-decoration:none;color:#333333;}
+
+a.numon:link {text-decoration:none;color:#ff7e00;font-weight:bold;background-color:#f8f8f8;}
+a.numon:hover {text-decoration:none;color:#ff7e00;font-weight:bold;background-color:#f8f8f8;}
+a.numon:visited {text-decoration:none;color:#ff7e00;font-weight:bold;background-color:#f8f8f8;}
+
+.sadd1 { FONT-SIZE: 11px; color: #000000 }
+.sadd2 { FONT-SIZE: 11px; color: #737373 }
+.sadd:link { FONT-SIZE: 11px; color: #737373; TEXT-DECORATION: none }
+.sadd:visited { FONT-SIZE: 11px; color: #737373; TEXT-DECORATION: none }
+.sadd:active { color: #737373 }
+.sadd:hover { FONT-SIZE: 11px; color: #737373; TEXT-DECORATION: underline }
+
+a.coupontx:link {text-decoration:none; color:#444444;}
+a.coupontx:visited {text-decoration:none;color:#444444;}
+a.coupontx:hover {text-decoration: underline;color:#444444;}
+		
+.p_add { font-size:11px;}
+.p_add2 {font-size:11px; color: #000;}
+.p_add3 { color: #FA7600; font-weight:bold; font-family:Verdana, Arial, Helvetica, sans-serif}
+.p_add4 { color: #000; line-height:17px;}
+.p_add5 { color: #FA7600; font-weight:bold; font-family:Verdana, Arial, Helvetica, sans-serif}
+
+/* 표준 브라우저 정렬 */
+.alignleft { text-align: -moz-left; text-align: left; }
+.aligncenter { text-align: -moz-center; text-align: center; }
+.alignright { text-align: -moz-right; text-align: right; }
+/* 표준 브라우저 정렬 */
+
+.lineup  {border-top:2px solid #f3aa0c;margin:13px 0 13px 0;padding:2px 8px 10px 8px; color:#7b7b7b;text-align:left}
+.linedown  {border-bottom:2px solid #f3aa0c;margin:13px 0 13px 0;padding:10px 8px 2px 8px; color:#7b7b7b;text-align:left}
+.lineup2  {margin:2px 0 0px 0;padding:10px 8px 10px 8px; color:#7b7b7b;text-align:left;}
+.linedown2  {border-bottom:2px solid #f3aa0c;margin:0 0 13px 0;padding:0 8px 10px 8px; color:#7b7b7b;text-align:left}	
+
+.pagenum {border:1px solid #e2e2e2;text-align:center;width:23px;padding:2px 0 1px 0;}
+.pagenum a {display:block;width:23px;}
+.pagenum a:hover {text-decoration:none; color:#ff7e00;}
+.pagenum a:visited {text-decoration:none; }
+	
+.pagenum2 {border:1px solid #e2e2e2;padding:2px 0 1px 0; text-align:center;width:55px;}
+.pagenum2 a {display:block;}
+.pagenum2 a:hover {text-decoration:none;color:#ff7e00;}
+.pagenum2 a:visited {text-decoration:none; }
+	
+.pagenum3 {border:1px solid #e2e2e2;padding:2px 0 1px 0; text-align:center;width:65px;}
+.pagenum3 a {display:block;}
+.pagenum3 a:hover {text-decoration:none; color:#ff7e00;}
+.pagenum3 a:visited {text-decoration:none; }
+	
+.pagenum4 {border:1px solid #e2e2e2;padding:2px 0 1px 0; text-align:center;width:80px;}
+.pagenum4 a {display:block;}
+.pagenum4 a:hover {text-decoration:none;color:#ff7e00;}
+.pagenum4 a:visited {text-decoration:none; }
+
+.pagenum5 {border:1px solid #e2e2e2;text-align:center;width:36px;padding:2px 0 1px 0;}
+.pagenum5 a {display:block;width:36px;}
+.pagenum5 a:hover {text-decoration:none; color:#ff7e00;}
+.pagenum5 a:visited {text-decoration:none; }
+
+.pagenum_on {border:1px solid #e2e2e2;padding:2px 0 1px 0;width:23px;background:#f8f8f8;font-weight:bold;color:#ff7e00;text-align:center; }
+
+.boxShadow 
+{
+	-webkit-box-shadow: 2px 2px 2px #888; 
+	-moz-box-shadow: 2px 2px 2px #888; 
+	box-shadow: 2px 2px 2px #888; 
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	filter: progid:DXImageTransform.Microsoft.Shadow(color='#888888', Direction=135, Strength=3);
+}
+
+label { cursor:pointer; }
+
+/* 2011-05-16 vtype 디자인 변경 */
+a.bov:link {color:#333333;font-weight:bold;text-decoration:none;}
+a.bov:visited {color:#333333;font-weight:bold;text-decoration:none;}
+a.bov:hover {color:#336699;font-weight:bold;text-decoration:underline;}
+
+.p1_n {color:#b54a72;}
+.p1_n2 {color:#f47900;}
+.p1_n3 {color:#62bbe0;}
+.p1_n4 {color:#f33494;}
+.p1_n5 {color:#cc0066; font-weight:bold;}
+.p1_bold {font-weight:bold;}
+
+/*쿠폰*/
+.np_price {color: #E45374; }
+.p_coupon {font-family:'Apple SD Gothic Neo',Malgun Gothic,Dotum, Verdana, Arial, Helvetica, sans-serif ; color:#FFFFFF; font-weight:bold; font-size:11px; }
+.coupon_s {	background:url(http://www.aladdin.co.kr/img/coupon/110321_coupon_1.jpg) top left no-repeat;	text-align:center;	height:16px;	width:116px;	padding:0;}
+a.coupon_s_t:link { font-family:'Apple SD Gothic Neo',Malgun Gothic,Dotum, Verdana, Arial, Helvetica, sans-serif; color:#FFFFFF; font-weight:bold;	font-size:11px;	text-decoration: none; }
+a.coupon_s_t:visited { font-family:'Apple SD Gothic Neo',Malgun Gothic,Dotum, Verdana, Arial, Helvetica, sans-serif; color:#FFFFFF; font-weight:bold;	font-size:11px;	 text-decoration: none;}
+a.coupon_s_t:hover{ font-family:'Apple SD Gothic Neo',Malgun Gothic,Dotum, Verdana, Arial, Helvetica, sans-serif; color:#FFFFFF; font-weight:bold;	font-size:11px;	 text-decoration: none;}
+
+/*대표곡듣기*/
+.nm_listbg1{background:url(//image.aladin.co.kr/img/bu/nm_list_tit1_02.jpg) repeat-x}
+.nm_list_t1{font-size:11px; color:#787878;}
+
+/*대체텍스트를 위한 코드*/
+.blind {overflow:hidden;position:absolute;top:0;left:0;width:1px;height:1px;font-size:0;line-height:0}
+
+/* 전자책 세트 */
+.eBookSet_right { position:absolute; right:-20px; top:0px; z-index:-1; }
+.eBookSet_right img { width:17px; /* height:300px; */ }
+
+.eBookSet_title { position: absolute; right:-5px; bottom:24px; z-index:1000; }
+.eBookSet_title img { width:212px; height:66px; margin-right:-1px }
+.eBookSet_title2 { position:absolute; left:60px; bottom:22px; font-weight:bold; color:black; font-size:16px; }
+
+.eBookSet_list_title { position: absolute; right:-5px;bottom:24px;z-index:1000; }
+.eBookSet_list_title img { width:153px;height:45px;margin-right:3px; }
+.eBookSet_list_title2 { position:absolute; left:40px; bottom:12px; font-weight:bold; color:black; font-size:14px; }
+
+/* 이벤트 desc 옵션처리 추가*/
+.ev_cobox { background:#f9f9f9; text-align:center; padding:4px; border:1px dotted #cfcfcf; margin:0 5px;} 
+
+.aladinonly_price { color: #e45374; }
+
+/*161226 전자책 대여제*/
+.basket_text_rent1 { color:#0892da;}
+.basket_text_rent2 { color:#919191;}
+
+.wrap2018_670px { width:670px; margin:0 auto; padding-left:10px;box-sizing:border-box; }
+.red_h3 { font-weight:bold; color:#cc3333!important; font-size:12px; padding:0; margin:10px 0 5px 5px; }
+ 
+/*2019 새 푸터*/
+.footer_wrap { clear:both; width: 930px; margin:0 auto; padding:20px 0; text-align:left;}
+.footer_wrap .corp_logo {float: left;width: 190px; padding-top:21px;}
+.footer_wrap .corp_info1 {float: left;width: 431px;}
+.footer_wrap .corp_info2 {float: left;width: 309px; box-sizing:border-box;}
+.footer_wrap .corp_info1 h3 { font-size:12px; font-weight:normal; padding:0; margin:0; }
+.footer_wrap .corp_info1 .info_contact {padding-top: 4px; margin-bottom: 19px; width:100%;}
+.footer_wrap .corp_info1 .info_contact li { float:left; display:inline; width:50%; padding-bottom:3px; }
+.footer_wrap .corp_info1 .info_copyright { clear:left; padding-top:5px; letter-spacing:0;}
+.footer_wrap .corp_info2 .info_call { clear:both; padding-bottom:13px; }
+.footer_wrap .corp_info2 .info_call span {font-family:'Apple SD Gothic Neo',Malgun Gothic,'돋움',Sans-serif; font-size:16px; font-weight:bold; padding-left:8px; line-height:0}
+.footer_wrap .corp_info2 .info_call .contact_one {display:inline-block; background:#ffffff; border:1px solid #e6e6e6; width:150px; text-align:center; margin:4px 0 5px 0; border-radius:2px;}
+.footer_wrap .corp_info2 .info_call .contact_one a { text-decoration:none; padding:3px 0; display:block; color:#333333!important; }
+.footer_wrap .corp_info2 .info_call .contact_one a:hover { text-decoration:none; background:#f2f2f2;padding:3px 0; display:block; color:#333333!important; }
+.footer_wrap .corp_info2 .info_call .list_faq { display:inline-block;background:#ffffff; border:1px solid #e6e6e6;width:150px; text-align:center;  margin:4px 0 5px 0;border-radius:2px;}
+.footer_wrap .corp_info2 .info_call .list_faq a { text-decoration:none; padding:3px 0; display:block; color:#333333!important; }
+.footer_wrap .corp_info2 .info_call .list_faq a:hover { text-decoration:none; background:#f2f2f2;padding:3px 0; display:block; color:#333333!important; }
+.footer_wrap .corp_info2 .info_call .list_store { background:url(https://image.aladin.co.kr/img/common/icon_loca.png) 20% 5px no-repeat #ffffff; border:1px solid #e6e6e6;width:307px; text-align:center; margin:4px 0 5px 0;border-radius:2px;}
+.footer_wrap .corp_info2 .info_call .list_store a {background:url(https://image.aladin.co.kr/img/common/icon_loca.png) 20% 5px no-repeat #ffffff; text-decoration:none; padding:3px 0; display:block; color:#333333!important; }
+.footer_wrap .corp_info2 .info_call .list_store a:hover { background:url(https://image.aladin.co.kr/img/common/icon_loca.png) 20% 5px no-repeat #f2f2f2;text-decoration:none; padding:3px 0; display:block; color:#333333!important; }
+.footer_wrap .corp_info2 .escrow_sub { }
+
+.footer_blue:link { color:#3774b1; text-decoration:underline; }
+.footer_blue:visited { color:#3774b1; text-decoration:underline; }
+.footer_blue:hover { color:#3774b1; text-decoration:underline; }
